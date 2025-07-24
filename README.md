@@ -115,3 +115,4 @@ terraform destroy
 - **App Service F1**: Free (with limitations)
 - **Storage Account**: ~$1-5/month depending on usage
 - **Total estimated cost**: $1-5/month for basic usage 
+
