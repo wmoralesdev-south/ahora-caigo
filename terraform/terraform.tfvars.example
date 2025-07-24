@@ -1,0 +1,17 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and modify the values as needed
+
+resource_group_name = "ahora-caigo-rg"
+location            = "East US"
+storage_account_name = "ahoracaigostorage"
+app_service_plan_name = "ahora-caigo-app-plan"
+app_service_name     = "ahora-caigo-backend"
+static_web_app_name  = "ahora-caigo-frontend"
+app_service_sku      = "F1"  # Free tier - cheapest option
+
+tags = {
+  Environment = "Production"
+  Project     = "Ahora Caigo"
+  ManagedBy   = "Terraform"
+  Owner       = "DevOps Team"
+} 
